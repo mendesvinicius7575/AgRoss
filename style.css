@@ -6,14 +6,12 @@ body{
 .header-cabecalho{
     display: flex;
     flex-wrap: wrap;
-    
     margin-top: 20px;
 }
 /* Tratando a logo agRoss*/
 .agross1{
-    max-width: 200px;
     margin-left: 80px;
-    width: 20%;
+    max-width: 20%;
 }
 /*Tratando a logo TVAgRoss*/
 .tv{
@@ -28,19 +26,16 @@ body{
 }
 /* Tratando o Menu do cabeçalho*/
 ul#menu{
-    display: flex;
-    flex-wrap: wrap;
     list-style: none;
     padding-left: 0%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(107, 107, 107);
-}
-/* Centralizando o menu do cabeçalho */
-#menu{
+    max-width: 400px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
 }
+
 
 .opcoes-cabecalho{
     margin: 0px 10px 0px 10px;
@@ -50,6 +45,10 @@ ul#menu{
 
 .pre-menu{
     display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+
 }
 
 .tvnoar-or-not{
@@ -90,7 +89,6 @@ a#tvnoar-opcao{
     text-decoration: none;
 }
 #tv-logo-central{
-    margin: auto;
-    width: 250px;
-    margin-left: 10%;
+}
+div > img#tv-logo-central{
 }
